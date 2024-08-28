@@ -1,0 +1,43 @@
+html {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 60px;
+  }
+
+  body {
+    background-image: url('/images/IMG_4777.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: Arial, sans-serif; /* Example of global font style */
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6); /* White overlay with 60% opacity */
+    z-index: -2;
+}

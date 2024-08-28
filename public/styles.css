@@ -1,0 +1,156 @@
+body {
+  background-image: url('/images/IMG_4777.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity for lighter background */
+  border: 1px solid #ddd;
+}
+
+.card .card-body {
+  padding: 10px; /* Adjust padding to make the card thinner */
+}
+
+.add-cafe-button {
+  margin-bottom: 20px;
+}
+
+.cafe-photo {
+  width: 250px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.cafes-list, .reviews-container{
+  width: 100%;
+  max-width: 800px;
+}
+
+.button-group {
+  margin-top: 10px;
+  margin-left: 400px;
+}
+
+.cafes-page-title{
+  color: red;
+}
+
+.cafes-container, .single-cafe-container{
+  margin-left: 200px;
+}
+
+.reviews-container, .card-container{
+  margin-left: 250px;
+}
+
+.main-page-text-container{
+  margin-top: 150px;
+}
+.main-page-text, h1{
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.single-cafe-info, .reviews-container{
+  width: 100%;
+}
+
+.cafe-photo{
+  margin-left: 20px;
+}
+
+.menu-button{
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 180px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.category-button, .occasion-button, .type-button{
+  background-color: pink;
+  font-weight: bold;
+}
+
+.category-button{
+  margin-top: 20px;
+}
+
+.type-button, .occasion-button{
+  margin-top: 10px;
+}
+
+.type-button{
+  margin-left: 100px;
+}
+
+.occasion-button{
+  margin-left: 170px;
+}
+
+.types-div, .occasions-div, .cafe-button{
+  margin-top: 10px;
+  background-color: pink;
+}
+
+.cafe-button{
+  width: auto;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.categories-div{
+  background-color: pink;
+}
+
+h5{
+  font-weight: bold;
+}
+
+.card{
+  margin-top: 20px;
+}
+
+.menu-categories-block{
+  background-color: pink;
+}
+
+.categories-header{
+  font-weight: bold;
+}
+
+.add-item-button{
+  margin-left: 20px;
+}
+
+.edit-menu-button{
+  margin-left: 20px;
+}
+
+.card-header{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card-title-cafe{
+  font-size: 40px;
+}
+
+
+
+
+
